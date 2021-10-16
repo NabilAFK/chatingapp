@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script> -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Chatting App</title>
+</head>
+<body>
+<div class="container">
+	<h3 class="text-center" id="meetingid">Welcome To Meeting ID - MD101</h3>
+	<hr>
+   <div class="row chatting-content border">
+	   <div class="col-md-4 bg-info text-white">
+		   <h4 class="text-center pt-2">Connected User</h4>
+		   <hr>
+		   <ul class="user-list">
+			   <div class="chat-right">
+			   <li>Neha</li>
+			   <li>Pranjali</li>			    
+			   </div>
+		   </ul>
+	   </div>
+	   <div class="col-md-8 px-0">
+		   <div class="bg-info">
+			   <button class="btn btn-danger" id="leave-chat">Leave Chat</button>
+		   </div>
+		   
+		   <div class="chat-right">
+		   <!-- <div class="chat-box">
+			   <p class="chat-username">Neha</p><small class="time">9:00 AM</small>
+			   <hr class="my-0">
+			   <p class="chat-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic odio saepe libero, odit itaque magnam. Laudantium eaque eligendi incidunt, ab, laborum sapiente nisi modi obcaecati distinctio animi doloribus expedita sunt.</p>
+		   </div> -->
+		   </div>
+	       <div class="chatting-input">
+			   <input type="text" class="form-control d-inline" id="message">
+			   <button class="btn btn-info send-btn">Send</button>
+		   </div>
+	   </div>
+           
+   </div>
+   
+
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

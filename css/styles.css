@@ -1,0 +1,81 @@
+body{
+    margin-top:20px;
+    overflow: hidden;
+}
+.form-section{
+    margin-top: 5rem;
+    width: 500px;
+    background:#ebeef0;
+    padding: 2.5rem;
+}
+.chatting-content{
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+.user-list{
+    list-style: none;
+    text-align: justify;
+    text-transform: capitalize;
+}
+.chat-box{
+    width: 480px;
+    background-color: rgba(184, 135, 11, 0.247);
+    color: rgb(134, 133, 133);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 4px;
+}
+.chat-right{
+    overflow-y: auto;
+    height: 300px;
+    position: relative; 
+}
+.chatting-input{
+   position:absolute;
+   width: 100%;
+   bottom:0;
+   left: 0;
+   padding: 1rem;
+   background-color: #ebeef0;
+}
+.chatting-input input{
+    width: 420px;
+}
+.send-btn{
+    height: 2.2rem;
+    margin-top: -5px;
+    margin-left: 1rem;
+    padding-top: 0 ;
+    font-size: .9rem;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.chat-username{
+    text-transform: capitalize;
+    margin: 0;
+    display: inline-block;
+    color: darkcyan;
+}
+#leave-chat{
+    margin-left: 26.8rem;
+}
+.time{
+    margin-left: 18rem;
+    color: darkcyan;
+}
